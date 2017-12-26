@@ -1,8 +1,55 @@
 body
 {
-	margin: 0;
+	margin: 1em auto;
+	padding: 0;
+
+	color: #ccc;
+	font-family: 'Roboto Mono', monospace;
+
 	background-color: #111;
-	color: #ddd;
+
 	min-width: 640;
 	min-height: 480;
+	width: 80%;
+}
+
+h1
+{
+	font-weight: normal;
+	font-size: 2em;
+
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+p
+{
+	font-weight: normal;
+	font-size: 1em;
+
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+header h1
+{
+	color: #666;
+}
+
+header #subtitle
+{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+content h1
+{
+	font-size: 1.5em;
+}
+
+footer p
+{
+	color: #333;
 }
