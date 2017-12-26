@@ -1,6 +1,6 @@
 version: '2'
 services:
-  php-apache:
+  php_apache:
     image: php:7.0-apache
     ports:
       - 80:80
