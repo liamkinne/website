@@ -1,5 +1,5 @@
 <h1>
-	Liam Kinne
+	liam-kinne
 	<br>
 	<span id="subtitle">//////////</span>
 </h1>
