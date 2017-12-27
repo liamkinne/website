@@ -31,6 +31,12 @@ p
 	padding: 0;
 }
 
+/* links */
+a
+{
+	text-decoration: none;
+}
+
 header
 {
 	padding: 0 0 3em;
