@@ -5,11 +5,7 @@
 </head>
 <body>
 	<header>
-		<h1>
-			Liam Kinne
-			<br>
-			<span id="subtitle">//////////</span>
-		</h1>
+		<?php include("includes/header.php"); ?>
 	</header>
 	<content>
 		<h1>Filename</h1>
