@@ -29,8 +29,9 @@
 		<?php
 		include("parsedown/Parsedown.php");
 		$Parsedown = new Parsedown();
-		echo $Parsedown->text($post_content);
+		echo($Parsedown->text($post_content));
 		?>
+		<p class="file-time">Last modified: January 1st, 1970 + <?php echo(filemtime($post_filename)); ?> seconds.</p>
 	</content>
 	<footer>
 		<?php include("includes/footer.php"); ?>

@@ -49,6 +49,11 @@ content h1
 	font-size: 1.5em;
 }
 
+content .file-time
+{
+	color: #333;
+}
+
 footer p
 {
 	color: #333;
