@@ -30,7 +30,7 @@
 		<p><?php echo($post_content); ?></p>
 	</content>
 	<footer>
-		<p>Copyright © 2017 Liam Kinne</p>
+		<?php include("includes/footer.php"); ?>
 	</footer>
 </body>
 </html>
