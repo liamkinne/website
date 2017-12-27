@@ -19,7 +19,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>liam-kinne/<?php echo($post_name . ".md"); ?></title>
+	<title>liamkinne/<?php echo($post_name . ".md"); ?></title>
 	<?php include("includes/head.php"); ?>
 </head>
 <body>
