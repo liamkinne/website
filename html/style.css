@@ -18,7 +18,7 @@ h1
 	font-weight: normal;
 	font-size: 2em;
 
-	margin: 0 0 1em;
+	margin: 0;
 	padding: 0;
 }
 
@@ -29,6 +29,11 @@ p
 
 	margin: 0 0 1em;
 	padding: 0;
+}
+
+header
+{
+	padding: 0 0 3em;
 }
 
 header h1
@@ -52,6 +57,11 @@ content h1
 content .file-time
 {
 	color: #333;
+}
+
+footer
+{
+	padding: 3em 0 0 0;
 }
 
 footer p
