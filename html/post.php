@@ -1,12 +1,12 @@
 <?php
 	$post_name = htmlspecialchars($_GET['p'], ENT_QUOTES, 'UTF-8');
 
-	$post_filename = './posts/' . $post_name . '.txt';
+	$post_filename = './posts/' . $post_name . '.md';
 
 	if (file_exists($post_filename))
 	{
 		$post_content = file_get_contents($post_filename, true);
-		// The .txt extension makes it imposible to look at files that don't have the extentsion, protecting possibly sensitive files.
+		// The .md extension makes it imposible to look at files that don't have the extentsion, protecting against looking at files that shouldn't be accessed
 	}
 	else
 	{
@@ -26,8 +26,11 @@
 		<?php include("includes/header.php"); ?>
 	</header>
 	<content>
-		<h1><?php echo($post_name); ?></h1>
-		<p><?php echo($post_content); ?></p>
+		<?php
+		include("parsedown/Parsedown.php");
+		$Parsedown = new Parsedown();
+		echo $Parsedown->text($post_content);
+		?>
 	</content>
 	<footer>
 		<?php include("includes/footer.php"); ?>
