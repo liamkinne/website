@@ -1,5 +1,5 @@
 <h1>
 	liamkinne
 	<br>
-	<span id="subtitle">//////////</span>
+	<span id="subtitle">/////////</span>
 </h1>
