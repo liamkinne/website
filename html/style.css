@@ -49,14 +49,6 @@ header h1
 	color: #666;
 }
 
-header #subtitle
-{
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
 content h1
 {
 	font-size: 1.5em;
