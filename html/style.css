@@ -6,7 +6,7 @@ body
 	color: #ccc;
 	font-family: 'Roboto Mono', monospace;
 
-	background-color: #111;
+	background-color: #073b4c;
 
 	min-width: 640;
 	min-height: 480;
@@ -37,6 +37,12 @@ p
 a
 {
 	text-decoration: none;
+	color: #ffd166;
+}
+
+a:hover
+{
+	color: #06d6a0;
 }
 
 header
@@ -44,14 +50,9 @@ header
 	padding: 0 0 3em;
 }
 
-header h1
-{
-	color: #666;
-}
-
 header h1 a
 {
-	color: #666;
+	color: #ef476f;
 }
 
 content h1
@@ -71,7 +72,7 @@ content h3
 
 content .file-time
 {
-	color: #333;
+	color: #118ab2;
 }
 
 footer
@@ -81,7 +82,7 @@ footer
 
 footer p
 {
-	color: #333;
+	color: #118ab2;
 }
 
 /* fonts */
