@@ -38,7 +38,7 @@
 
 			// Display file modification time in not on homepage
 			if ($post_name != "home")
-				echo("<p class='file-time'>Last modified: January 1st, 1970 + " . filemtime($post_filename));
+				echo("<p class='file-time'>Last modified: January 1st, 1970 + " . filemtime($post_filename) . " seconds");
 		?>
 	</content>
 	<footer>
