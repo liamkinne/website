@@ -1,6 +1,6 @@
 # Hello World
 
-## Latest Posts
+## Posts
 
 - [Building Myself a Website](post.php?p=building-myself-a-website)
 
