@@ -1,5 +1,6 @@
 <?php
 	$post_name = htmlspecialchars($_GET['p'], ENT_QUOTES, 'UTF-8');
+	$post_name = mb_ereg_replace("\.", "", $post_name);
 
 	$post_filename = './posts/' . $post_name . '.md';
 
