@@ -6,9 +6,9 @@
 
 ## Links
 
-- [github](https://github.com/liamkinne/)
-- [twitter](https://twitter.com/liamkinne/)
-- [instagram](https://www.instagram.com/liamkinne/)
+- [GitHub](https://github.com/liamkinne/)
+- [Twitter](https://twitter.com/liamkinne/)
+- [Instagram](https://www.instagram.com/liamkinne/)
 
 
 ## Projects
