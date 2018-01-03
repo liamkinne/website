@@ -10,8 +10,7 @@
 	<content>
 		<?php
 		include("parsedown/Parsedown.php");
-		$Parsedown = new Parsedown();
-		echo($Parsedown->text(file_get_contents("./posts/home.md", true)));
+		echo Parsedown::instance()->text(file_get_contents("./posts/home.md", true));
 		?>
 	</content>
 	<footer>
