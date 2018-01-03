@@ -16,4 +16,4 @@ docker-compose up -d
 
 And you're all set!
 
-Some other things like HTTPS certiicates are only done on the server for oobvious security reasons.
+Some other things like HTTPS certificates are only done on the server for obvious security reasons.
