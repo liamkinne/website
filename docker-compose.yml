@@ -1,7 +1,7 @@
 version: '2'
 services:
   php_apache:
-    image: php:7.0-apache
+    image: php:7.2-apache
     restart: always
     ports:
       - 80:80
