@@ -9,4 +9,4 @@
 
 ## Projects
 
-- [Phantom](https://liamkinne.com/post.php?p=phantom)
+- [Phantom](post.php?p=phantom)
