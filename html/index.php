@@ -32,7 +32,7 @@ $post_content = file_get_contents($post_filename, true);
 <html>
 <head>
 	<title>liamkinne<?php if($is_home) echo("/" . $post_name); ?></title>
-	<meta property="og:title" content="<?php echo($post_name); ?>">
+	<meta property="og:title" content="<?php if ($is_home) echo("Hello World");else echo($post_name); ?>">
 	<?php include("includes/head.php"); ?>
 </head>
 <body>
