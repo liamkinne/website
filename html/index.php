@@ -4,9 +4,14 @@ $post_name = htmlspecialchars($_GET['p'], ENT_QUOTES, 'UTF-8');
 // Strip "." to further mitigate the risk of bad users looking at restricted files/content
 $post_name = mb_ereg_replace("\.", "", $post_name);
 
+$is_home = false;
+
 // If post_name is empty, we must be looking for home
 if ($post_name == "")
+{
 	$post_name = "home";
+	$is_home = true;
+}
 
 // Create file name from name
 $post_filename = './posts/' . $post_name . '.md';
@@ -26,9 +31,8 @@ $post_content = file_get_contents($post_filename, true);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>liamkinne<?php if($post_name != "home") echo("/" . $post_name); ?></title>
+	<title>liamkinne<?php if($is_home) echo("/" . $post_name); ?></title>
 	<?php include("includes/head.php"); ?>
-
 </head>
 <body>
 	<header>
@@ -41,7 +45,7 @@ $post_content = file_get_contents($post_filename, true);
 			echo Parsedown::instance()->text($post_content);
 
 			// Display file modification time in not on homepage
-			if ($post_name != "home")
+			if ($is_home)
 				echo("<p class='file-time'>Last modified: January 1st, 1970 + " . filemtime($post_filename) . " seconds");
 		?>
 	</content>
