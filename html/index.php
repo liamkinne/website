@@ -26,13 +26,17 @@ if (!file_exists($post_filename))
 
 // Get content from post or homepage
 $post_content = file_get_contents($post_filename, true);
+
+// Parsedown
+require("parsedown/Parsedown.php");
+$Parsedown = new Parsedown();
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>liamkinne<?php if($is_home) echo("/" . $post_name); ?></title>
-	<meta property="og:title" content="<?php if ($is_home) echo("Hello World");else echo($post_name); ?>">
+	<meta property="og:title" content="<?php echo($Parsedown->getTitle($post_content)); ?>">
 	<?php include("includes/head.php"); ?>
 </head>
 <body>
@@ -42,8 +46,7 @@ $post_content = file_get_contents($post_filename, true);
 	<content>
 		<?php
 			// Display using parsedown
-			require("parsedown/Parsedown.php");
-			echo Parsedown::instance()->text($post_content);
+			echo ($Parsedown->text($post_content));
 
 			// Display file modification time in not on homepage
 			if ($is_home)
