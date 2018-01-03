@@ -19,3 +19,9 @@ docker-compose up -d
 And you're all set!
 
 Some other things like HTTPS certificates are only done on the server for obvious security reasons.
+
+# Feature List
+
+- Twitter card support
+- Databaseless content system (via git)
+- Lightning load times
