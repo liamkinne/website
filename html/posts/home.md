@@ -2,7 +2,7 @@
 
 ## Posts
 
-- [Building Myself a Website](post.php?p=building-myself-a-website)
+- [Building Myself a Website](?p=building-myself-a-website)
 
 ## Links
 
@@ -13,4 +13,4 @@
 
 ## Projects
 
-- [Phantom](post.php?p=phantom)
+- [Phantom](?p=phantom)
