@@ -96,6 +96,8 @@ footer
 footer p
 {
 	color: #118ab2;
+	padding: 0;
+	margin: 0;
 }
 
 /* fonts */
