@@ -1,5 +1,9 @@
 # Hello World
 
+## Latest Posts
+
+- [Building Myself a Website](post.php?p=building-myself-a-website)
+
 ## Links
 
 - [github](https://github.com/liamkinne/)
