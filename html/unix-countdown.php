@@ -10,6 +10,7 @@
 	</header>
 	<content>
 		<h1>Countdown until 1515151515</h1>
+		<p>GMT: Friday, January 5, 2018 11:25:15 AM</p>
 		<script>
 			setInterval(function ()
 			{
