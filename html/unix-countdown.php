@@ -13,11 +13,13 @@
 		<script>
 			setInterval(function ()
 			{
-				var unix = 1515151515 - Math.round(Date.now()/1000);
+				var unix = Math.round(Date.now()/1000);
 				if (unix > 0)
-					document.getElementById("time").innerHTML = unix;
+					document.getElementById("time").innerHTML = 1515151515 - unix;
 				else
 					document.getElementById("time").innerHTML = "Done!";
+
+				document.getElementById("currentTime").innerHTML = unix;
 
 			}, 100);
 		</script>
@@ -28,8 +30,14 @@
 				padding: 0;
 				margin: 0;
 			}
+			#currentTime
+			{
+				padding: 0;
+				margin: 0;
+			}
 		</style>
 		<pre id="time"></pre>
+		<p id="currentTime"></p>
 	</content>
 	<footer>
 		<?php include("includes/footer.php"); ?>
