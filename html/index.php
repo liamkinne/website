@@ -49,7 +49,7 @@ $Parsedown = new Parsedown();
 			echo ($Parsedown->text($post_content));
 
 			// Display file modification time in not on homepage
-			if ($is_home)
+			if (!$is_home)
 				echo("<p class='file-time'>Last modified: January 1st, 1970 + " . filemtime($post_filename) . " seconds");
 		?>
 	</content>
