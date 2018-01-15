@@ -7,4 +7,9 @@ This means:
 - Pin functions as objects rather than slow single functions.
 - Greater interoperability between projects and platforms.
 
+Some goals for the future are:
+- Adding support for the BBC micro:bit
+- Developing an IDE for ease of use when uploading code
+- Creating documentation to help attract new users
+
 You can find the whole project [here](https://github.com/PhantomEmbedded/).
