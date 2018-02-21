@@ -4,7 +4,7 @@ Does that title rhyme? whatever...
 
 ![tickets](../images/hobart-cup-2018-tickets.jpg)
 
-On the 16th of January, the Tasmanian Racing Club Inc made a post on their official facebook page about giving away 10 tickets to the upcoming Hobart cup. That post contained the above photo in which two of the ten tickets have their QR codes showing... *ohno.jpg*
+On the 16th of January, the Tasmanian Racing Club Inc made a post on their official facebook page about giving away 10 tickets to the upcoming Hobart cup. That post contained the above photo in which two of the ten tickets have their QR codes showing...
 
 Putting photos of real tickets in photos is always bad, but this was extra bad.
 
