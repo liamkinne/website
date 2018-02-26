@@ -1,5 +1,6 @@
 <?php
 	$id = $_GET['e'];
+	if ($id == '') $id = "404";
 ?>
 
 <!DOCTYPE html>
@@ -10,9 +11,7 @@
 <body>
 	<header>
 		<h1>
-			ERROR
-			<br>
-			<?php echo($id); ?>
+			ERROR <?php echo($id); ?>
 		</h1>
 	</header>
 </body>
