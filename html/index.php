@@ -1,8 +1,7 @@
 <?php
 // Sanitize HTML chars
 $post_name = htmlspecialchars($_GET['p'], ENT_QUOTES, 'UTF-8');
-// Strip "." to further mitigate the risk of bad users looking at restricted files/content
-$post_name = mb_ereg_replace("\.", "", $post_name);
+$post_category = htmlspecialchars($_GET['c'], ENT_QUOTES, 'UTF-8');
 
 $is_home = false;
 
@@ -14,7 +13,7 @@ if ($post_name == "")
 }
 
 // Create file name from name
-$post_filename = './posts/' . $post_name . '.md';
+$post_filename = './posts/' . $post_category . '/' . $post_name . '.md';
 
 // die if file doesn't exist
 if (!file_exists($post_filename))
