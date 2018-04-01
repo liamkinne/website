@@ -1,7 +1,6 @@
-# Hello World
-
 ## Posts
 
+- [Don't expose your tickets!](?p=dont-expose-your-qr-codes)
 - [Building Myself a Website](?p=building-myself-a-website)
 - [Going to NCSS 2018](?p=ncss-2018)
 
