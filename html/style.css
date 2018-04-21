@@ -10,7 +10,7 @@ body
 
 	min-width: 640;
 	min-height: 480;
-	width: 60%;
+	width: 50%;
 }
 
 h1,
@@ -48,6 +48,7 @@ a:hover
 header
 {
 	padding-bottom: 3em;
+	text-align: center;
 }
 
 header h1 a
